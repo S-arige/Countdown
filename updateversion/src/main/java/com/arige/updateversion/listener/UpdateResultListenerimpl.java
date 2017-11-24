@@ -14,4 +14,6 @@ public interface UpdateResultListenerimpl {
 
     //提醒更新
     void notifyUpdate(String targetUrl);
+
+    void onError(String errMsg);
 }
